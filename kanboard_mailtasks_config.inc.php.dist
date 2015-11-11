@@ -1,5 +1,6 @@
 <?php
 $is_debug = true;
+$is_dryrun = false;
 
 $imap_server = '{myserver:993/imap/ssl}INBOX';
 $imap_account = 'myaccount';
