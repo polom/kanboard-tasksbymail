@@ -1,0 +1,17 @@
+<?php
+$is_debug = true;
+
+$imap_server = '{myserver:993/imap/ssl}INBOX';
+$imap_account = 'myaccount';
+$imap_pass = 'mypass';
+
+// The account part of the mail address
+// Mails will be sent to myaccount+myprojectname@mydomain.tld
+$mail_prefix = 'myaccount+';
+
+$postmark_webhook_url = "";
+
+$jsonrpc_url = "";
+$jsonrpc_auth_name = "jsonrpc";
+$jsonrpc_auth_token = "";
+?>
